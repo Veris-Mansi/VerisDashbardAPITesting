@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PositveTestingSuite">
+  <test name="Complete Test">
+    <groups>
+      <run>
+        <include name="Workflow"/>
+        <include name="Screens"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="FormBuilderTest.CompleteTesting"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

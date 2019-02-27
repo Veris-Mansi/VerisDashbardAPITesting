@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PositveTestingSuite]">
+  <test thread-count="5" name="Complete Test(failed)">
+    <groups>
+      <run>
+        <include name="Workflow"/>
+        <include name="Screens"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="FormBuilderTest.CompleteTesting">
+        <methods>
+          <include name="deleteFormFields"/>
+          <include name="MapScreensWithWorkflows"/>
+          <include name="AddCustomScreens"/>
+          <include name="removeMappingScreenWf"/>
+          <include name="deleteScreens"/>
+          <include name="addWorflow"/>
+          <include name="updateCustomScreens"/>
+        </methods>
+      </class> <!-- FormBuilderTest.CompleteTesting -->
+    </classes>
+  </test> <!-- Complete Test(failed) -->
+</suite> <!-- Failed suite [PositveTestingSuite] -->

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PositveTestingSuite">
+              <span class="suite-name border-failed">PositveTestingSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PositveTestingSuite">
+                    <span>D:\Selenium_Projects\Project\VerisDashboardAPITesting\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PositveTestingSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PositveTestingSuite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PositveTestingSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PositveTestingSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PositveTestingSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PositveTestingSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 1 failed,  5 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PositveTestingSuite" class="hide-methods failed suite-PositveTestingSuite"> (hide)</a> <!-- hide-methods failed suite-PositveTestingSuite -->
+                      <a href="#" panel-name="suite-PositveTestingSuite" class="show-methods failed suite-PositveTestingSuite"> (show)</a> <!-- show-methods failed suite-PositveTestingSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-PositveTestingSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="AddCustomScreens">AddCustomScreens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PositveTestingSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-PositveTestingSuite" class="hide-methods skipped suite-PositveTestingSuite"> (hide)</a> <!-- hide-methods skipped suite-PositveTestingSuite -->
+                      <a href="#" panel-name="suite-PositveTestingSuite" class="show-methods skipped suite-PositveTestingSuite"> (show)</a> <!-- show-methods skipped suite-PositveTestingSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-PositveTestingSuite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="MapScreensWithWorkflows">MapScreensWithWorkflows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="deleteFormFields">deleteFormFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="deleteScreens">deleteScreens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="removeMappingScreenWf">removeMappingScreenWf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="updateCustomScreens">updateCustomScreens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-PositveTestingSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PositveTestingSuite" class="hide-methods passed suite-PositveTestingSuite"> (hide)</a> <!-- hide-methods passed suite-PositveTestingSuite -->
+                      <a href="#" panel-name="suite-PositveTestingSuite" class="show-methods passed suite-PositveTestingSuite"> (show)</a> <!-- show-methods passed suite-PositveTestingSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-PositveTestingSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="MapWorkflow">MapWorkflow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="UpdateWorkflow">UpdateWorkflow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="addExistingScreens">addExistingScreens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="addWorflow">addWorflow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="deleteWorkFlow">deleteWorkFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="getExistingScreen">getExistingScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="getScreens">getScreens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="getWorkflows">getWorkflows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="removeExistingSCresn">removeExistingSCresn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PositveTestingSuite" title="FormBuilderTest.CompleteTesting" hash-for-method="removeVenueWFMapping">removeVenueWFMapping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PositveTestingSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PositveTestingSuite" class="panel PositveTestingSuite">
+          <div class="suite-PositveTestingSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">FormBuilderTest.CompleteTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCustomScreens">
+                  </a> <!-- AddCustomScreens -->
+                  <span class="method-name">AddCustomScreens</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at FormBuilderTest.CompleteTesting.AddCustomScreens(CompleteTesting.java:112)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Adding Custom Screens)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PositveTestingSuite-class-failed -->
+          <div class="suite-PositveTestingSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">FormBuilderTest.CompleteTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MapScreensWithWorkflows">
+                  </a> <!-- MapScreensWithWorkflows -->
+                  <span class="method-name">MapScreensWithWorkflows</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CompleteTesting.MapScreensWithWorkflows()[pri:11, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Mapping Custom Screens with workflow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteFormFields">
+                  </a> <!-- deleteFormFields -->
+                  <span class="method-name">deleteFormFields</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CompleteTesting.deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Delete form fields from utom Screens)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteScreens">
+                  </a> <!-- deleteScreens -->
+                  <span class="method-name">deleteScreens</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CompleteTesting.deleteScreens()[pri:14, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(deleting custom screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeMappingScreenWf">
+                  </a> <!-- removeMappingScreenWf -->
+                  <span class="method-name">removeMappingScreenWf</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CompleteTesting.removeMappingScreenWf()[pri:13, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Remove mapping of workflow and custom screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateCustomScreens">
+                  </a> <!-- updateCustomScreens -->
+                  <span class="method-name">updateCustomScreens</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CompleteTesting.updateCustomScreens()[pri:10, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Updating Custom Screens(Adding form fileds in custom as screen))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PositveTestingSuite-class-skipped -->
+          <div class="suite-PositveTestingSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">FormBuilderTest.CompleteTesting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MapWorkflow">
+                  </a> <!-- MapWorkflow -->
+                  <span class="method-name">MapWorkflow</span>
+                  <em>
+(Mapping workflow with venue)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateWorkflow">
+                  </a> <!-- UpdateWorkflow -->
+                  <span class="method-name">UpdateWorkflow</span>
+                  <em>
+(Update Workflows)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addExistingScreens">
+                  </a> <!-- addExistingScreens -->
+                  <span class="method-name">addExistingScreens</span>
+                  <em>
+(Mapping Existing screens with a workflow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addWorflow">
+                  </a> <!-- addWorflow -->
+                  <span class="method-name">addWorflow</span>
+                  <em>
+(Add Workflows)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteWorkFlow">
+                  </a> <!-- deleteWorkFlow -->
+                  <span class="method-name">deleteWorkFlow</span>
+                  <em>
+(Deleting WorkFlow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getExistingScreen">
+                  </a> <!-- getExistingScreen -->
+                  <span class="method-name">getExistingScreen</span>
+                  <em>
+(Getting Existing screens of a workflow)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getScreens">
+                  </a> <!-- getScreens -->
+                  <span class="method-name">getScreens</span>
+                  <em>
+(GetAll Screens)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWorkflows">
+                  </a> <!-- getWorkflows -->
+                  <span class="method-name">getWorkflows</span>
+                  <em>
+(Getting WorkFlows)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeExistingSCresn">
+                  </a> <!-- removeExistingSCresn -->
+                  <span class="method-name">removeExistingSCresn</span>
+                  <em>
+(removing mapping of Existing screens)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeVenueWFMapping">
+                  </a> <!-- removeVenueWFMapping -->
+                  <span class="method-name">removeVenueWFMapping</span>
+                  <em>
+(remove mapping of workflow and mapping)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PositveTestingSuite-class-passed -->
+        </div> <!-- panel PositveTestingSuite -->
+        <div panel-name="test-xml-PositveTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium_Projects\Project\VerisDashboardAPITesting\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;PositveTestingSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Complete Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Workflow&quot;/&gt;
+        &lt;include name=&quot;Screens&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;FormBuilderTest.CompleteTesting&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Complete Test --&gt;
+&lt;/suite&gt; &lt;!-- PositveTestingSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PositveTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PositveTestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Complete Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PositveTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PositveTestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Screens</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AddCustomScreens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MapScreensWithWorkflows</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteFormFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteScreens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteWorkFlow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getScreens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeMappingScreenWf</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeVenueWFMapping</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateCustomScreens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Workflow</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">MapWorkflow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UpdateWorkflow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addExistingScreens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addWorflow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getExistingScreen</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getWorkflows</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeExistingSCresn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PositveTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PositveTestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PositveTestingSuite');
+function tableData_PositveTestingSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getWorkflows')
+data.setCell(0, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(0, 3, 35157);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddCustomScreens')
+data.setCell(1, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(1, 3, 4295);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addWorflow')
+data.setCell(2, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(2, 3, 4123);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'UpdateWorkflow')
+data.setCell(3, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(3, 3, 4095);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addExistingScreens')
+data.setCell(4, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(4, 3, 2032);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getScreens')
+data.setCell(5, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(5, 3, 1906);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getExistingScreen')
+data.setCell(6, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(6, 3, 1767);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deleteWorkFlow')
+data.setCell(7, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(7, 3, 1722);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'removeExistingSCresn')
+data.setCell(8, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(8, 3, 1688);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MapWorkflow')
+data.setCell(9, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(9, 3, 1686);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'removeVenueWFMapping')
+data.setCell(10, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(10, 3, 1622);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'MapScreensWithWorkflows')
+data.setCell(11, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'removeMappingScreenWf')
+data.setCell(12, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'deleteScreens')
+data.setCell(13, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'deleteFormFields')
+data.setCell(14, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'updateCustomScreens')
+data.setCell(15, 2, 'FormBuilderTest.CompleteTesting')
+data.setCell(15, 3, 0);
+window.suiteTableData['PositveTestingSuite']= { tableData: data, tableDiv: 'times-div-PositveTestingSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-PositveTestingSuite">
+              </div> <!-- times-div-PositveTestingSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PositveTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PositveTestingSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PositveTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PositveTestingSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">FormBuilderTest.CompleteTesting</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getWorkflows</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addWorflow</span>
+                <span class="method-start">35157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdateWorkflow</span>
+                <span class="method-start">39327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MapWorkflow</span>
+                <span class="method-start">43438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getExistingScreen</span>
+                <span class="method-start">45124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addExistingScreens</span>
+                <span class="method-start">46891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeExistingSCresn</span>
+                <span class="method-start">48923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getScreens</span>
+                <span class="method-start">50627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddCustomScreens</span>
+                <span class="method-start">52549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeVenueWFMapping</span>
+                <span class="method-start">56860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteWorkFlow</span>
+                <span class="method-start">58482 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
