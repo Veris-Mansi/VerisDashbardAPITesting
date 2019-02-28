@@ -1,16 +1,33 @@
 package FormBuilderTest;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
+import java.io.File;
+import java.lang.reflect.Method;
+
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.Test;
 import org.testng.junit.*;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+
 import Files.PayLoadData;
 import Files.Resources;
-import Modules.*;
-import Modules.CustomException;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
@@ -26,6 +43,34 @@ public class CompleteTesting {
 	int custom_screen_id;
 	int field_id;
 	int count=0;
+	ExtentHtmlReporter htmlReporter;
+	ExtentReports extent;
+	ExtentTest test;
+	@BeforeTest
+	public void startReport()
+	{
+		htmlReporter = new ExtentHtmlReporter(new File(System.getProperty("user.dir")+"/MyOwnReport.html"));
+
+		// create ExtentReports and attach reporter(s)
+		extent = new ExtentReports();
+		extent.attachReporter(htmlReporter);
+		extent.setSystemInfo("OS", "Windows");
+		extent.setSystemInfo("Enviorment", "QA");
+		extent.setSystemInfo("Username", "MAnsi Sahu");
+
+		htmlReporter.config().setDocumentTitle(" Automation Testing Report");
+		htmlReporter.config().setReportName("Form Builder Automation Testing Report");
+		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
+		htmlReporter.config().setTheme(Theme.DARK);
+		htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+	}
+	@BeforeMethod
+	public void register(Method method)
+	{
+		String testName=method.getName();
+		test=extent.createTest(testName);
+	}
+
 	@Test(priority=1,description="Getting WorkFlows",groups="Workflow")
 	public void getWorkflows()
 	{
@@ -42,14 +87,12 @@ public class CompleteTesting {
 		int wf_status=Integer.parseInt(add_WF_status[1]);
 		int result[]=Resources.getForms();
 		int new_count=result[1];
+		Assert.assertEquals(wf_status, 201);
 		if(wf_status == 201)
 		{
 			Assert.assertEquals(new_count, prev_count+1);;
 		}
-		else
-		{
-			Assert.assertTrue(false);
-		}
+
 	}
 	@Test(priority=3,description="Update Workflows",dependsOnMethods="addWorflow",groups="Workflow")
 	public void UpdateWorkflow()
@@ -103,7 +146,7 @@ public class CompleteTesting {
 		int code=Screens_add_result[0];
 		int arr[]=Resources.getScreens();
 		int next_count=arr[1];
-		if(code == 200)
+		if(code == 201)
 		{
 			custom_screen_id=Screens_add_result[1];
 			Assert.assertEquals(next_count, prev_count+1);
@@ -119,7 +162,7 @@ public class CompleteTesting {
 		int result[]=Resources.EditCustomScreen(custom_screen_id);
 		int code=result[0];
 		field_id=result[1];
-		Assert.assertEquals(code, 200);
+		Assert.assertEquals(code, 201);
 	}
 	@Test(priority=11,groups="Screens",dependsOnMethods= {"addWorflow","AddCustomScreens"},description="Mapping Custom Screens with workflow")
 	public void MapScreensWithWorkflows()
@@ -141,27 +184,45 @@ public class CompleteTesting {
 		int code=Resources.removeCustomScreens(custom_screen_workflow_mapping_id, workflow_id);
 		Assert.assertEquals(code, 200);
 	}
-	
+
 	@Test(priority=14,groups="Screens",description="deleting custom screen",dependsOnMethods="AddCustomScreens")
 	public void deleteScreens()
 	{
 		int code=Resources.deleteScreen(custom_screen_id);
 		Assert.assertEquals(code, 200);
 	}
-	@Test(priority=14,groups="Screens",description="remove mapping of workflow and mapping",dependsOnMethods="MapWorkflow")
+	@Test(priority=15,groups="Screens",description="remove mapping of workflow and mapping",dependsOnMethods="MapWorkflow")
 	public void removeVenueWFMapping()
 	{
 		int code=Resources.removeWorkFlow(Integer.parseInt(workflow_id));
 		Assert.assertEquals(code, 200);
 	}
-	@Test(priority=15,groups="Screens",description="Deleting WorkFlow",dependsOnMethods="addWorflow")
-	
-		public void deleteWorkFlow()
-		{
-			int code=Resources.DeleteWorkFlow(Integer.parseInt(workflow_id));
-			Assert.assertEquals(code, 200);
-		}
+	@Test(priority=16,groups="Screens",description="Deleting WorkFlow",dependsOnMethods="addWorflow")
+
+	public void deleteWorkFlow()
+	{
+		int code=Resources.DeleteWorkFlow(Integer.parseInt(workflow_id));
+		Assert.assertEquals(code, 200);
+	}
+	@AfterMethod 
+	public void getResult(ITestResult result) {
+        if(result.getStatus() == ITestResult.FAILURE) {
+            test.log(Status.FAIL, MarkupHelper.createLabel(result.getName()+" FAILED ", ExtentColor.RED));
+            test.fail(result.getThrowable());
+        }
+        else if(result.getStatus() == ITestResult.SUCCESS) {
+            test.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" PASSED ", ExtentColor.GREEN));
+        }
+        else {
+            test.log(Status.SKIP, MarkupHelper.createLabel(result.getName()+" SKIPPED ", ExtentColor.ORANGE));
+            test.skip(result.getThrowable());
+        }
+	}
+	@AfterTest
+	public void flushing()
+	{
+		extent.flush();
+	}
 
 }
 
-	

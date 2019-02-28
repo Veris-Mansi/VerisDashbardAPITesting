@@ -5,9 +5,13 @@
     <classes>
       <class name="FormBuilderTest.CompleteTesting">
         <methods>
-          <include name="UpdateWorkflow"/>
-          <include name="MapWorkflow"/>
-          <include name="addWorflow"/>
+          <include name="deleteFormFields"/>
+          <include name="flushing"/>
+          <include name="AddCustomScreens"/>
+          <include name="startReport"/>
+          <include name="register"/>
+          <include name="getResult"/>
+          <include name="updateCustomScreens"/>
         </methods>
       </class> <!-- FormBuilderTest.CompleteTesting -->
     </classes>

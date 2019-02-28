@@ -1,76 +1,295 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="5" failed="1" ignored="0" total="16" passed="10">
+<testng-results skipped="1" failed="1" ignored="0" total="16" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="PositveTestingSuite" duration-ms="60237" started-at="2019-02-27T11:50:31Z" finished-at="2019-02-27T11:51:31Z">
+  <suite name="Default suite" duration-ms="34800" started-at="2019-02-28T09:30:15Z" finished-at="2019-02-28T09:30:50Z">
     <groups>
       <group name="Workflow">
-        <method signature="CompleteTesting.addWorflow()[pri:2, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="addWorflow" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.MapWorkflow()[pri:4, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="MapWorkflow" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.UpdateWorkflow()[pri:3, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="UpdateWorkflow" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.addExistingScreens()[pri:6, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="addExistingScreens" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.getExistingScreen()[pri:5, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="getExistingScreen" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.getWorkflows()[pri:1, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="getWorkflows" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.removeExistingSCresn()[pri:7, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="removeExistingSCresn" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.addWorflow()[pri:2, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="addWorflow" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.MapWorkflow()[pri:4, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="MapWorkflow" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.UpdateWorkflow()[pri:3, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="UpdateWorkflow" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.addExistingScreens()[pri:6, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="addExistingScreens" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.getExistingScreen()[pri:5, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getExistingScreen" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.getWorkflows()[pri:1, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getWorkflows" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.removeExistingSCresn()[pri:7, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="removeExistingSCresn" class="FormBuilderTest.CompleteTesting"/>
       </group> <!-- Workflow -->
       <group name="Screens">
-        <method signature="CompleteTesting.AddCustomScreens()[pri:9, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="AddCustomScreens" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.MapScreensWithWorkflows()[pri:11, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="MapScreensWithWorkflows" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.deleteScreens()[pri:14, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="deleteScreens" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.deleteWorkFlow()[pri:15, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="deleteWorkFlow" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.getScreens()[pri:8, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="getScreens" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.removeMappingScreenWf()[pri:13, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="removeMappingScreenWf" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.removeVenueWFMapping()[pri:14, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="removeVenueWFMapping" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.updateCustomScreens()[pri:10, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="updateCustomScreens" class="FormBuilderTest.CompleteTesting"/>
-        <method signature="CompleteTesting.deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="deleteFormFields" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.AddCustomScreens()[pri:9, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="AddCustomScreens" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.MapScreensWithWorkflows()[pri:11, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="MapScreensWithWorkflows" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.deleteScreens()[pri:14, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="deleteScreens" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.deleteWorkFlow()[pri:16, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="deleteWorkFlow" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.getScreens()[pri:8, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getScreens" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.removeMappingScreenWf()[pri:13, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="removeMappingScreenWf" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.removeVenueWFMapping()[pri:15, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="removeVenueWFMapping" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.updateCustomScreens()[pri:10, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="updateCustomScreens" class="FormBuilderTest.CompleteTesting"/>
+        <method signature="CompleteTesting.deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="deleteFormFields" class="FormBuilderTest.CompleteTesting"/>
       </group> <!-- Screens -->
     </groups>
-    <test name="Complete Test" duration-ms="60237" started-at="2019-02-27T11:50:31Z" finished-at="2019-02-27T11:51:31Z">
+    <test name="Default test" duration-ms="34800" started-at="2019-02-28T09:30:15Z" finished-at="2019-02-28T09:30:50Z">
       <class name="FormBuilderTest.CompleteTesting">
-        <test-method status="PASS" signature="getWorkflows()[pri:1, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="getWorkflows" duration-ms="35157" started-at="2019-02-27T11:50:31Z" description="Getting WorkFlows" finished-at="2019-02-27T11:51:06Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="startReport" is-config="true" duration-ms="344" started-at="2019-02-28T09:30:15Z" finished-at="2019-02-28T09:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="16" started-at="2019-02-28T09:30:15Z" finished-at="2019-02-28T09:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.getWorkflows()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="getWorkflows()[pri:1, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getWorkflows" duration-ms="6038" started-at="2019-02-28T09:30:15Z" description="Getting WorkFlows" finished-at="2019-02-28T09:30:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWorkflows -->
-        <test-method status="PASS" signature="addWorflow()[pri:2, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="addWorflow" duration-ms="4123" started-at="2019-02-27T11:51:06Z" description="Add Workflows" finished-at="2019-02-27T11:51:10Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="17" started-at="2019-02-28T09:30:21Z" finished-at="2019-02-28T09:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getWorkflows status=SUCCESS method=CompleteTesting.getWorkflows()[pri:1, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="1" started-at="2019-02-28T09:30:21Z" finished-at="2019-02-28T09:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.addWorflow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="addWorflow()[pri:2, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="addWorflow" duration-ms="3671" started-at="2019-02-28T09:30:21Z" description="Add Workflows" finished-at="2019-02-28T09:30:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addWorflow -->
-        <test-method status="PASS" signature="UpdateWorkflow()[pri:3, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="UpdateWorkflow" duration-ms="4095" started-at="2019-02-27T11:51:10Z" description="Update Workflows" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-27T11:51:15Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:25Z" finished-at="2019-02-28T09:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addWorflow status=SUCCESS method=CompleteTesting.addWorflow()[pri:2, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="UpdateWorkflow()[pri:3, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="UpdateWorkflow" duration-ms="1864" started-at="2019-02-28T09:30:25Z" description="Update Workflows" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-28T09:30:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateWorkflow -->
-        <test-method status="PASS" signature="MapWorkflow()[pri:4, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="MapWorkflow" duration-ms="1686" started-at="2019-02-27T11:51:15Z" description="Mapping workflow with venue" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-27T11:51:16Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:25Z" finished-at="2019-02-28T09:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.UpdateWorkflow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:27Z" finished-at="2019-02-28T09:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateWorkflow status=SUCCESS method=CompleteTesting.UpdateWorkflow()[pri:3, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="MapWorkflow()[pri:4, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="MapWorkflow" duration-ms="1609" started-at="2019-02-28T09:30:27Z" description="Mapping workflow with venue" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-28T09:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MapWorkflow -->
-        <test-method status="PASS" signature="getExistingScreen()[pri:5, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="getExistingScreen" duration-ms="1767" started-at="2019-02-27T11:51:16Z" description="Getting Existing screens of a workflow" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-27T11:51:18Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:27Z" finished-at="2019-02-28T09:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.MapWorkflow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:29Z" finished-at="2019-02-28T09:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MapWorkflow status=SUCCESS method=CompleteTesting.MapWorkflow()[pri:4, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getExistingScreen()[pri:5, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getExistingScreen" duration-ms="1750" started-at="2019-02-28T09:30:29Z" description="Getting Existing screens of a workflow" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-28T09:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getExistingScreen -->
-        <test-method status="PASS" signature="addExistingScreens()[pri:6, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="addExistingScreens" duration-ms="2032" started-at="2019-02-27T11:51:18Z" description="Mapping Existing screens with a workflow" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-27T11:51:20Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:29Z" finished-at="2019-02-28T09:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.getExistingScreen()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:30Z" finished-at="2019-02-28T09:30:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.addExistingScreens()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:30Z" finished-at="2019-02-28T09:30:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getExistingScreen status=SUCCESS method=CompleteTesting.getExistingScreen()[pri:5, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="addExistingScreens()[pri:6, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="addExistingScreens" duration-ms="1777" started-at="2019-02-28T09:30:30Z" description="Mapping Existing screens with a workflow" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-28T09:30:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addExistingScreens -->
-        <test-method status="PASS" signature="removeExistingSCresn()[pri:7, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="removeExistingSCresn" duration-ms="1688" started-at="2019-02-27T11:51:20Z" description="removing mapping of Existing screens" depends-on-methods="FormBuilderTest.CompleteTesting.addExistingScreens" finished-at="2019-02-27T11:51:22Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:32Z" finished-at="2019-02-28T09:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.removeExistingSCresn()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="removeExistingSCresn()[pri:7, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="removeExistingSCresn" duration-ms="1672" started-at="2019-02-28T09:30:32Z" description="removing mapping of Existing screens" depends-on-methods="FormBuilderTest.CompleteTesting.addExistingScreens" finished-at="2019-02-28T09:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeExistingSCresn -->
-        <test-method status="PASS" signature="getScreens()[pri:8, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="getScreens" duration-ms="1906" started-at="2019-02-27T11:51:22Z" description="GetAll Screens" finished-at="2019-02-27T11:51:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:32Z" finished-at="2019-02-28T09:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addExistingScreens status=SUCCESS method=CompleteTesting.addExistingScreens()[pri:6, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="16" started-at="2019-02-28T09:30:34Z" finished-at="2019-02-28T09:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeExistingSCresn status=SUCCESS method=CompleteTesting.removeExistingSCresn()[pri:7, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getScreens()[pri:8, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getScreens" duration-ms="1759" started-at="2019-02-28T09:30:34Z" description="GetAll Screens" finished-at="2019-02-28T09:30:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getScreens -->
-        <test-method status="FAIL" signature="AddCustomScreens()[pri:9, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="AddCustomScreens" duration-ms="4295" started-at="2019-02-27T11:51:24Z" description="Adding Custom Screens" finished-at="2019-02-27T11:51:28Z">
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:34Z" finished-at="2019-02-28T09:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.getScreens()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:36Z" finished-at="2019-02-28T09:30:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.AddCustomScreens()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:36Z" finished-at="2019-02-28T09:30:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getScreens status=SUCCESS method=CompleteTesting.getScreens()[pri:8, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AddCustomScreens()[pri:9, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="AddCustomScreens" duration-ms="3532" started-at="2019-02-28T09:30:36Z" description="Adding Custom Screens" finished-at="2019-02-28T09:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomScreens -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:39Z" finished-at="2019-02-28T09:30:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCustomScreens status=SUCCESS method=CompleteTesting.AddCustomScreens()[pri:9, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:39Z" finished-at="2019-02-28T09:30:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.updateCustomScreens()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="FAIL" signature="updateCustomScreens()[pri:10, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="updateCustomScreens" duration-ms="1654" started-at="2019-02-28T09:30:39Z" description="Updating Custom Screens(Adding form fileds in custom as screen)" depends-on-methods="FormBuilderTest.CompleteTesting.AddCustomScreens" finished-at="2019-02-28T09:30:41Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[expected [201] but found [200]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: expected [201] but found [200]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at FormBuilderTest.CompleteTesting.AddCustomScreens(CompleteTesting.java:112)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at FormBuilderTest.CompleteTesting.updateCustomScreens(CompleteTesting.java:165)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -101,142 +320,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddCustomScreens -->
-        <test-method status="SKIP" signature="MapScreensWithWorkflows()[pri:11, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="MapScreensWithWorkflows" duration-ms="0" started-at="2019-02-27T11:51:28Z" description="Mapping Custom Screens with workflow" depends-on-methods="FormBuilderTest.CompleteTesting.AddCustomScreens, FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-27T11:51:28Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method CompleteTesting.MapScreensWithWorkflows()[pri:11, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method CompleteTesting.MapScreensWithWorkflows()[pri:11, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- updateCustomScreens -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="16" started-at="2019-02-28T09:30:41Z" finished-at="2019-02-28T09:30:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateCustomScreens status=FAILURE method=CompleteTesting.updateCustomScreens()[pri:10, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:41Z" finished-at="2019-02-28T09:30:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.MapScreensWithWorkflows()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="MapScreensWithWorkflows()[pri:11, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="MapScreensWithWorkflows" duration-ms="1756" started-at="2019-02-28T09:30:41Z" description="Mapping Custom Screens with workflow" depends-on-methods="FormBuilderTest.CompleteTesting.AddCustomScreens, FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-28T09:30:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MapScreensWithWorkflows -->
-        <test-method status="SKIP" signature="updateCustomScreens()[pri:10, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="updateCustomScreens" duration-ms="0" started-at="2019-02-27T11:51:28Z" description="Updating Custom Screens(Adding form fileds in custom as screen)" depends-on-methods="FormBuilderTest.CompleteTesting.AddCustomScreens" finished-at="2019-02-27T11:51:28Z">
+        <test-method status="SKIP" signature="deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="deleteFormFields" duration-ms="0" started-at="2019-02-28T09:30:43Z" description="Delete form fields from utom Screens" depends-on-methods="FormBuilderTest.CompleteTesting.updateCustomScreens" finished-at="2019-02-28T09:30:43Z">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method CompleteTesting.updateCustomScreens()[pri:10, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods]]>
+              <![CDATA[Method CompleteTesting.deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5bcab519] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method CompleteTesting.updateCustomScreens()[pri:10, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateCustomScreens -->
-        <test-method status="PASS" signature="removeVenueWFMapping()[pri:14, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="removeVenueWFMapping" duration-ms="1622" started-at="2019-02-27T11:51:28Z" description="remove mapping of workflow and mapping" depends-on-methods="FormBuilderTest.CompleteTesting.MapWorkflow" finished-at="2019-02-27T11:51:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeVenueWFMapping -->
-        <test-method status="SKIP" signature="removeMappingScreenWf()[pri:13, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="removeMappingScreenWf" duration-ms="0" started-at="2019-02-27T11:51:28Z" description="Remove mapping of workflow and custom screen" depends-on-methods="FormBuilderTest.CompleteTesting.MapScreensWithWorkflows" finished-at="2019-02-27T11:51:28Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method CompleteTesting.removeMappingScreenWf()[pri:13, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method CompleteTesting.removeMappingScreenWf()[pri:13, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeMappingScreenWf -->
-        <test-method status="SKIP" signature="deleteScreens()[pri:14, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="deleteScreens" duration-ms="0" started-at="2019-02-27T11:51:28Z" description="deleting custom screen" depends-on-methods="FormBuilderTest.CompleteTesting.AddCustomScreens" finished-at="2019-02-27T11:51:28Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method CompleteTesting.deleteScreens()[pri:14, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method CompleteTesting.deleteScreens()[pri:14, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteScreens -->
-        <test-method status="SKIP" signature="deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="deleteFormFields" duration-ms="0" started-at="2019-02-27T11:51:28Z" description="Delete form fields from utom Screens" depends-on-methods="FormBuilderTest.CompleteTesting.updateCustomScreens" finished-at="2019-02-27T11:51:28Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method CompleteTesting.deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method CompleteTesting.deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5622fdf] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method CompleteTesting.deleteFormFields()[pri:12, instance:FormBuilderTest.CompleteTesting@5bcab519] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -261,11 +378,126 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteFormFields -->
-        <test-method status="PASS" signature="deleteWorkFlow()[pri:15, instance:FormBuilderTest.CompleteTesting@5622fdf]" name="deleteWorkFlow" duration-ms="1722" started-at="2019-02-27T11:51:30Z" description="Deleting WorkFlow" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-27T11:51:31Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:43Z" finished-at="2019-02-28T09:30:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MapScreensWithWorkflows status=SUCCESS method=CompleteTesting.MapScreensWithWorkflows()[pri:11, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:43Z" finished-at="2019-02-28T09:30:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.removeMappingScreenWf()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="removeMappingScreenWf()[pri:13, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="removeMappingScreenWf" duration-ms="1687" started-at="2019-02-28T09:30:43Z" description="Remove mapping of workflow and custom screen" depends-on-methods="FormBuilderTest.CompleteTesting.MapScreensWithWorkflows" finished-at="2019-02-28T09:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMappingScreenWf -->
+        <test-method status="PASS" signature="deleteScreens()[pri:14, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="deleteScreens" duration-ms="1562" started-at="2019-02-28T09:30:44Z" description="deleting custom screen" depends-on-methods="FormBuilderTest.CompleteTesting.AddCustomScreens" finished-at="2019-02-28T09:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteScreens -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:44Z" finished-at="2019-02-28T09:30:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.deleteScreens()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:44Z" finished-at="2019-02-28T09:30:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeMappingScreenWf status=SUCCESS method=CompleteTesting.removeMappingScreenWf()[pri:13, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:46Z" finished-at="2019-02-28T09:30:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteScreens status=SUCCESS method=CompleteTesting.deleteScreens()[pri:14, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="removeVenueWFMapping()[pri:15, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="removeVenueWFMapping" duration-ms="1641" started-at="2019-02-28T09:30:46Z" description="remove mapping of workflow and mapping" depends-on-methods="FormBuilderTest.CompleteTesting.MapWorkflow" finished-at="2019-02-28T09:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeVenueWFMapping -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:46Z" finished-at="2019-02-28T09:30:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.removeVenueWFMapping()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="deleteWorkFlow()[pri:16, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="deleteWorkFlow" duration-ms="1781" started-at="2019-02-28T09:30:48Z" description="Deleting WorkFlow" depends-on-methods="FormBuilderTest.CompleteTesting.addWorflow" finished-at="2019-02-28T09:30:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteWorkFlow -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:48Z" finished-at="2019-02-28T09:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeVenueWFMapping status=SUCCESS method=CompleteTesting.removeVenueWFMapping()[pri:15, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="register(java.lang.reflect.Method)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="register" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:48Z" finished-at="2019-02-28T09:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void FormBuilderTest.CompleteTesting.deleteWorkFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="getResult" is-config="true" duration-ms="0" started-at="2019-02-28T09:30:49Z" finished-at="2019-02-28T09:30:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteWorkFlow status=SUCCESS method=CompleteTesting.deleteWorkFlow()[pri:16, instance:FormBuilderTest.CompleteTesting@5bcab519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="flushing()[pri:0, instance:FormBuilderTest.CompleteTesting@5bcab519]" name="flushing" is-config="true" duration-ms="469" started-at="2019-02-28T09:30:49Z" finished-at="2019-02-28T09:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushing -->
       </class> <!-- FormBuilderTest.CompleteTesting -->
-    </test> <!-- Complete Test -->
-  </suite> <!-- PositveTestingSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
